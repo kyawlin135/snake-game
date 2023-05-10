@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+}
+.container{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.databar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(96, 94, 94);
+    color: #fff;
+}
+.databar span{
+    font-size: 19px;
+}
+.playboard{
+    height: 550px;
+    background-color: rgb(36, 36, 36);
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+}
+.food{
+    background-color: rgb(244, 73, 73);
+}
+.head{
+    background-color: rgb(105, 105, 250);
+}
